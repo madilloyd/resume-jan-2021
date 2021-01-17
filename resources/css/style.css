@@ -51,3 +51,30 @@ body{
 .resume .resume_left .resume_content{
     padding: 0 25px;
 }
+
+.resume .title{
+    margin-bottom: 20px;
+}
+
+.resume .resume_left .bold {
+    color:#fff;
+}
+
+.resume .resume_left .regular{
+    color: #FFF1BE;
+}
+
+.resume .resume_item{
+    padding: 25px 0; 
+    border-bottom: 2px solid #FFF1BE;
+}
+
+.resume .resume_left .resume_item:last-child{
+    border: 0px;
+}
+
+.resume .resume_left ul li{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
