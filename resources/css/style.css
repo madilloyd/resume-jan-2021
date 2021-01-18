@@ -92,7 +92,8 @@ body{
     margin-bottom: 0;
 }
 
-.resume .resume_left ul li .icon {
+/*Icon display features and positioning*/
+.resume .resume_left ul li .icon{
     width: 35px;
     height: 35px;
     background: #fff;
@@ -101,4 +102,25 @@ body{
     margin-radius: 15px;
     font-size: 16px;
     position: relative;
+}
+
+.resume .icon i{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+/*List text color*/
+.resume .resume_left ul li .data{
+    color: #FFF1BE;
+}
+
+.resume .resume_left .resume_skills ul li{
+    color: #FFF1BE;
+}
+
+.resume .resume_left .resume_skills ul li .skill_name{
+    letter-spacing: 0.12em;
+    word-spacing: 0.05em;
 }
