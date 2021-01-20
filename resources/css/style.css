@@ -53,6 +53,14 @@ body{
     height: 100%;
 }
 
+.name{
+    font-weight: 700;
+    font-size: 30px;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: #fff;
+}
+
 /*Resume left*/
 .resume .resume_left .resume_content{
     padding: 0 25px;
@@ -172,8 +180,20 @@ body{
     border: 2px solid #F7D358;
 }
 
-.resume .resume_right .resume_work ul li:after,
+/*.resume .resume_right .resume_work ul li:after,
 .resume .resume_right .resume_education ul li:after{
+    content: "";
+    position: absolute;
+    top: 14px;
+    left: -21px;
+    width: 2px;
+    height: 115px;
+    background: #F7D358;*/
+}
+/*Education line graphic*/
+
+/*CofC*/
+.resume .resume_right .resume_education .cofc ul li:after{
     content: "";
     position: absolute;
     top: 14px;
